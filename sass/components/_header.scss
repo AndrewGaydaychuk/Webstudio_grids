@@ -1,0 +1,118 @@
+   /* section header */
+   .header>.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__web
+{font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.87;
+}
+.header__logo{
+    color: $accent;
+}
+.header-span{
+    color: $gray-color;
+}
+
+
+
+
+.header__address{
+    font-style: normal;
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+}
+.navigation{
+    margin-right: auto;
+}
+.hero__button,.header__logo{
+    color: #2196F3;
+}
+
+
+.header__pages
+{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+    &__list{
+        @include grids-list (53)
+    }
+}
+.header__page{
+    margin-left: 54px;
+    &:nth-child(1):hover:after{
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: $accent;
+        width: 48px;
+        height: 4px;
+        border-radius: 2px;
+        margin-top: 10px;
+    }
+    &:nth-child(2):hover:after{
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: $accent;
+        width: 72px;
+        height: 4px;
+        border-radius: 2px;
+        margin-top: 10px;
+    }
+    &:nth-child(3):hover:after{
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: $accent;
+        width: 65px;
+        height: 4px;
+        border-radius: 2px;
+        margin-top: 10px;
+    }
+}
+.header-contact
+{ 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    margin-right: 50px;
+}    
+.header__link
+{   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $gray-color;
+    padding-left: 30px;
+    &:hover{
+        color: $accent;  
+        transition: 500ms;
+    }
+}
+.header__icon{
+    fill: currentColor;
+    margin-right: 10px;
+    &:hover{
+        color: $accent;
+        transition: 500ms;
+    }
+}
+.header__menu{
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}

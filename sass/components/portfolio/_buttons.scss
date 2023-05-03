@@ -1,0 +1,21 @@
+.main-lists{
+    display: flex;
+    justify-content: center;
+}
+.main-list,.main-lis{
+    margin-left: 8px;
+}
+.main-buttons:hover{
+    color: white;
+    background: #2196F3;
+}
+
+.main-button
+{font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #F5F4FA;
+    color: #212121;
+}

@@ -1,0 +1,32 @@
+.hero__title
+{ 
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.6;
+    color: $second-color;
+    font-family: 'Roboto';
+
+}
+
+.hero__button
+{ 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: $second-color;
+    background: $accent;
+    margin-top: 30px;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    
+}      
+.hero__section{
+    text-align: center;
+    padding: 118px 0;
+}
+      
+.hero__button{
+    border: none;
+    margin-top: 30px;
+}

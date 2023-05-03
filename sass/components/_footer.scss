@@ -1,0 +1,95 @@
+footer>a{  
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.19;
+    color: $black-color;
+}
+.footer__adress
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height:  1.71; 
+    color: $halfwhite-color;
+}
+.footer__h{
+    color: $second-color;
+    padding-left: 0;
+    text-align: left;
+}
+.footer__li{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    fill: $second-color;
+}
+.footer__li:nth-child(2){
+    fill: $second-color;
+    background-color: $accent;
+}
+footer>.container{
+    display: flex;
+}
+.footer__button{
+    color: $second-color;
+    background-color: $accent;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    margin-top: 36px;
+}
+.footer__div{
+    margin-left: 70px;
+}
+.footer__imput{
+    background-color: $black-color;
+    width: 358px;
+    height: 58px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    margin-right: 12px;
+    padding-left: 16px;
+}
+.footer__container{
+    margin-left: 93px;
+}
+.footer__link{
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer__text{
+    color: $second-color;
+}
+.page__footer{
+    background: $black-color;
+    margin-top: 94px;
+}
+.footer__web{
+    color: $second-color;
+}
+.button__use{
+    fill: $second-color;
+
+}
+.button__svg{
+    margin-left: 150px;
+}
+.div__forbutton{
+    margin-left: 370px;
+    margin-top: 0px;
+}
+.footer__web,.footer__adress,.footer__link{
+    display: block;
+}
+.socials__footer{
+    display: flex;
+    gap: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+footer>p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}  
