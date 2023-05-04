@@ -53,3 +53,8 @@
     letter-spacing: 0.02em;
     color: #212121;
 }
+.menu__list{
+    &__list{
+        @include grids-list (32)
+    }
+}

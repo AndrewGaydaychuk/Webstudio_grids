@@ -24,12 +24,16 @@ h2{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    &__list{
+        @include grids-list (30)
+    }
 }
 .work__item{
     margin-left: 30px;
 }
 .work__ul{
     display: flex;
+    
 }
 .work__li{
     margin-left: 200px;

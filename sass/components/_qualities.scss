@@ -3,6 +3,9 @@
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+    &__list{
+        @include grids-list (30)
+    }
 }
 .qualities__item{
     width: 450px;

@@ -8,6 +8,9 @@
     padding-top: 50px;
     flex-wrap: wrap;
     gap: 30px;
+    &__list{
+        @include grids-list (30)
+    }
 }
 .const__section{
     padding: 60px 0;
