@@ -25,7 +25,7 @@
         border-radius: 4px;
     }
    &:nth-child(1)::before{
-        background-image: url(../images/antenna\ 1.png);
+        background-image: url(../../images/antenna\ 1.png);
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -48,7 +48,7 @@
 
 }
 
-.qualities__section{
+.qualities{
     padding: 60px 0;
    @media screen and (min-width: 1200px) {
     padding-top: 94px;

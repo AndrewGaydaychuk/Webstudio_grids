@@ -1,7 +1,8 @@
+@import "./units/mixins";
 @import "./units/vars";
 @import "./base/reset";
 @import "./base/common";
-@import "/sass/components/grids";
+@import "./components/grids";
 @import "./components/header";
 @import "./components/hero";
 @import "./components/qualities";

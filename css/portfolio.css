@@ -53,6 +53,7 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.87;
+  color: #212121;
 }
 
 .header__logo {
@@ -87,11 +88,18 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   display: none;
+  align-items: center;
 }
 @media screen and (min-width: 768px) {
   .header__pages {
     display: flex;
   }
+}
+.header__pages__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
 .header__page {
@@ -311,6 +319,12 @@ footer > .container {
   gap: 20px;
   border-radius: 50%;
   margin-top: 20px;
+}
+.socials__footer__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10;
 }
 
 footer > p {
